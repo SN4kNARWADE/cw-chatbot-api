@@ -1,14 +1,14 @@
 from bardapi import Bard
-import os
+
 import re
-from dotenv import load_dotenv
+
 from flask import Flask, request,jsonify,json
 from flask_restful import Resource, Api
 
 app = Flask(_name_)
 api = Api(app)
 
-load_dotenv()
+
 token = "ZwjoetHMeSPdguLlcb9BFwcCm18UH3VaEtGwA40gn5-08bx2U7ZHLkg2QKlORsvUW-kFTw."
 
 
