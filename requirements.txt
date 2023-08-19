@@ -2,6 +2,4 @@ pip
 flask
 gunicorn
 bardapi
-re
-dotenv
 flask_restful
