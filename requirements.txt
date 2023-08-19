@@ -1,7 +1,7 @@
 flask
 gunicorn
 bardapi
-os
+
 re
 dotenv
 flask_restful
