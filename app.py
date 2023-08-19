@@ -22,7 +22,7 @@ def search():
 
         args = request.args
         prompt = args.get("question", default="", type=str)
-        prompt = "warning!! only answer the question which is requested and do not give any other texts in the response! i am giving you this json with keys as some questions and the values as answer to the respective question, i will tell you what is the question and you will answer me by finding that question in the json as key and tell me the answer according to the value of that key, the json is {'hi' :'hello','how are you?':'i am good','hello':'hii'} and the question is '{question}' , wrap the answer in ]"
+        prompt = "warning!! only answer the question which is requested and do not give any other texts in the response! i am giving you this json with keys as some questions and the values as answer to the respective question, i will tell you what is the question and you will answer me by finding that question in the json as key and tell me the answer according to the value of that key, the json is {'hi' :'hello','how are you?':'i am good','hello':'hii'} and the question is '"+question+"' , wrap the answer in ]"
 
         bard = Bard(token=token)
 
