@@ -1,6 +1,6 @@
 from bardapi import Bard
 
-import re
+
 
 from flask import Flask, request,jsonify,json
 from flask_restful import Resource, Api
@@ -28,9 +28,9 @@ def search():
 
         result = bard.get_answer(prompt)
 
-        answer = re.findall(r'([^"]*)', result['content'])
+        
 
-        return answer[0]
+        return result['content']
 
     except:
         return "there is an error"
