@@ -9,7 +9,7 @@ app = Flask(__name__)
 api = Api(app)
 
 
-token = "ZwjoetHMeSPdguLlcb9BFwcCm18UH3VaEtGwA40gn5-08bx2U7ZHLkg2QKlORsvUW-kFTw."
+token = "aAjW3souphQ7tT0Rf8rviWsBBOH30ZuLtHVK3at4V-O9-K2IraoxcP_mEq6JG15KgK0EHA."
 
 
 
